@@ -4,7 +4,7 @@ const { resolve } = require("path");
 
 const app = express();
 
-app.get("*", (res, res) => {
+app.get("*", (req, res) => {
   res.sendFile(
     resolve(__dirname, "..", "the-gainer-frontend", "dist", "index.html")
   );
