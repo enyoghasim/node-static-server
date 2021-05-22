@@ -3,7 +3,7 @@ const express = require("express");
 const { resolve } = require("path");
 
 const app = express();
-
+app.set("trust proxy", 1);
 app.use(
   express.static(resolve(__dirname, "..", "the-gainer-frontend", "dist"))
 );
