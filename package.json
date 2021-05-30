@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/enyoghasim/node-static-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
   }
 }
