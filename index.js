@@ -11,7 +11,7 @@ app.use(
     contentSecurityPolicy: false
   })
 );
-// app.disable("x-powered-by");
+app.disable("x-powered-by");
 app.use(
   express.static(resolve(__dirname, "..", "the-gainer-frontend", "dist"))
 );
